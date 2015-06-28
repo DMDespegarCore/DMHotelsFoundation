@@ -16,4 +16,8 @@ FOUNDATION_EXPORT const unsigned char DMHotelsFoundationVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <DMHotelsFoundation/PublicHeader.h>
 
+#import <DMHotelsFoundation/DMHotelsDetailViewController.h>
+#import <DMHotelsFoundation/DMHotelsResultsViewController.h>
+#import <DMHotelsFoundation/DMHotelsResultTableViewController.h>
+#import <DMHotelsFoundation/DMHotelsSearchViewController.h>
 

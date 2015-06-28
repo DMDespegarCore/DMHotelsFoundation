@@ -10,6 +10,16 @@
 		C320FD3A1B40782B000569CE /* DMHotelsFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = C320FD391B40782B000569CE /* DMHotelsFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C320FD401B40782B000569CE /* DMHotelsFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C320FD341B40782B000569CE /* DMHotelsFoundation.framework */; };
 		C320FD471B40782B000569CE /* DMHotelsFoundationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C320FD461B40782B000569CE /* DMHotelsFoundationTests.m */; };
+		C320FD551B407871000569CE /* DMHotelsDetailViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C320FD531B407871000569CE /* DMHotelsDetailViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C320FD561B407871000569CE /* DMHotelsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C320FD541B407871000569CE /* DMHotelsDetailViewController.m */; };
+		C320FD5B1B407878000569CE /* DMHotelsResultsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C320FD571B407878000569CE /* DMHotelsResultsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C320FD5C1B407878000569CE /* DMHotelsResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C320FD581B407878000569CE /* DMHotelsResultsViewController.m */; };
+		C320FD5D1B407878000569CE /* DMHotelsResultTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C320FD591B407878000569CE /* DMHotelsResultTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C320FD5E1B407878000569CE /* DMHotelsResultTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C320FD5A1B407878000569CE /* DMHotelsResultTableViewController.m */; };
+		C320FD611B40787E000569CE /* DMHotelsSearchViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C320FD5F1B40787E000569CE /* DMHotelsSearchViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C320FD621B40787E000569CE /* DMHotelsSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C320FD601B40787E000569CE /* DMHotelsSearchViewController.m */; };
+		C320FD7C1B407A0E000569CE /* DMViewFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C320FD7B1B407A0E000569CE /* DMViewFoundation.framework */; };
+		C320FD831B407AC3000569CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C320FD821B407AC3000569CE /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +39,16 @@
 		C320FD3F1B40782B000569CE /* DMHotelsFoundationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DMHotelsFoundationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C320FD451B40782B000569CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C320FD461B40782B000569CE /* DMHotelsFoundationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMHotelsFoundationTests.m; sourceTree = "<group>"; };
+		C320FD531B407871000569CE /* DMHotelsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMHotelsDetailViewController.h; sourceTree = "<group>"; };
+		C320FD541B407871000569CE /* DMHotelsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMHotelsDetailViewController.m; sourceTree = "<group>"; };
+		C320FD571B407878000569CE /* DMHotelsResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMHotelsResultsViewController.h; sourceTree = "<group>"; };
+		C320FD581B407878000569CE /* DMHotelsResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMHotelsResultsViewController.m; sourceTree = "<group>"; };
+		C320FD591B407878000569CE /* DMHotelsResultTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMHotelsResultTableViewController.h; sourceTree = "<group>"; };
+		C320FD5A1B407878000569CE /* DMHotelsResultTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMHotelsResultTableViewController.m; sourceTree = "<group>"; };
+		C320FD5F1B40787E000569CE /* DMHotelsSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMHotelsSearchViewController.h; sourceTree = "<group>"; };
+		C320FD601B40787E000569CE /* DMHotelsSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMHotelsSearchViewController.m; sourceTree = "<group>"; };
+		C320FD7B1B407A0E000569CE /* DMViewFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DMViewFoundation.framework; path = "../DMViewFoundation/build/Debug-iphoneos/DMViewFoundation.framework"; sourceTree = "<group>"; };
+		C320FD821B407AC3000569CE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C320FD7C1B407A0E000569CE /* DMViewFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +74,7 @@
 		C320FD2A1B40782B000569CE = {
 			isa = PBXGroup;
 			children = (
+				C320FD651B4078F7000569CE /* Frameworks */,
 				C320FD361B40782B000569CE /* DMHotelsFoundation */,
 				C320FD431B40782B000569CE /* DMHotelsFoundationTests */,
 				C320FD351B40782B000569CE /* Products */,
@@ -71,7 +93,11 @@
 		C320FD361B40782B000569CE /* DMHotelsFoundation */ = {
 			isa = PBXGroup;
 			children = (
+				C320FD521B407869000569CE /* Detail */,
+				C320FD511B407861000569CE /* Results */,
+				C320FD501B40785B000569CE /* Search */,
 				C320FD391B40782B000569CE /* DMHotelsFoundation.h */,
+				C320FD821B407AC3000569CE /* Main.storyboard */,
 				C320FD371B40782B000569CE /* Supporting Files */,
 			);
 			path = DMHotelsFoundation;
@@ -102,6 +128,43 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C320FD501B40785B000569CE /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				C320FD5F1B40787E000569CE /* DMHotelsSearchViewController.h */,
+				C320FD601B40787E000569CE /* DMHotelsSearchViewController.m */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
+		C320FD511B407861000569CE /* Results */ = {
+			isa = PBXGroup;
+			children = (
+				C320FD571B407878000569CE /* DMHotelsResultsViewController.h */,
+				C320FD581B407878000569CE /* DMHotelsResultsViewController.m */,
+				C320FD591B407878000569CE /* DMHotelsResultTableViewController.h */,
+				C320FD5A1B407878000569CE /* DMHotelsResultTableViewController.m */,
+			);
+			name = Results;
+			sourceTree = "<group>";
+		};
+		C320FD521B407869000569CE /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				C320FD531B407871000569CE /* DMHotelsDetailViewController.h */,
+				C320FD541B407871000569CE /* DMHotelsDetailViewController.m */,
+			);
+			name = Detail;
+			sourceTree = "<group>";
+		};
+		C320FD651B4078F7000569CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C320FD7B1B407A0E000569CE /* DMViewFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -110,6 +173,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C320FD3A1B40782B000569CE /* DMHotelsFoundation.h in Headers */,
+				C320FD5D1B407878000569CE /* DMHotelsResultTableViewController.h in Headers */,
+				C320FD611B40787E000569CE /* DMHotelsSearchViewController.h in Headers */,
+				C320FD551B407871000569CE /* DMHotelsDetailViewController.h in Headers */,
+				C320FD5B1B407878000569CE /* DMHotelsResultsViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C320FD831B407AC3000569CE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +277,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C320FD561B407871000569CE /* DMHotelsDetailViewController.m in Sources */,
+				C320FD5E1B407878000569CE /* DMHotelsResultTableViewController.m in Sources */,
+				C320FD621B40787E000569CE /* DMHotelsSearchViewController.m in Sources */,
+				C320FD5C1B407878000569CE /* DMHotelsResultsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +398,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../**",
+				);
 				INFOPLIST_FILE = DMHotelsFoundation/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -341,6 +417,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../**",
+				);
 				INFOPLIST_FILE = DMHotelsFoundation/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
