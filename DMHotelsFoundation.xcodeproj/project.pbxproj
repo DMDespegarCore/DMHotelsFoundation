@@ -20,6 +20,8 @@
 		C320FD621B40787E000569CE /* DMHotelsSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C320FD601B40787E000569CE /* DMHotelsSearchViewController.m */; };
 		C320FD7C1B407A0E000569CE /* DMViewFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C320FD7B1B407A0E000569CE /* DMViewFoundation.framework */; };
 		C320FD831B407AC3000569CE /* DMHotelsMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C320FD821B407AC3000569CE /* DMHotelsMain.storyboard */; };
+		F0F901901B47110F00A1C235 /* Hotels.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0F9018F1B47110F00A1C235 /* Hotels.xcassets */; };
+		F0F901931B47115000A1C235 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0F901951B47115000A1C235 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,10 @@
 		C320FD601B40787E000569CE /* DMHotelsSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMHotelsSearchViewController.m; sourceTree = "<group>"; };
 		C320FD7B1B407A0E000569CE /* DMViewFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DMViewFoundation.framework; path = "../DMViewFoundation/build/Debug-iphoneos/DMViewFoundation.framework"; sourceTree = "<group>"; };
 		C320FD821B407AC3000569CE /* DMHotelsMain.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DMHotelsMain.storyboard; sourceTree = "<group>"; };
+		F0F9018B1B4704A300A1C235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0F9018F1B47110F00A1C235 /* Hotels.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Hotels.xcassets; path = Resources/Hotels.xcassets; sourceTree = "<group>"; };
+		F0F901941B47115000A1C235 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F0F901961B47116B00A1C235 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,7 @@
 		C320FD2A1B40782B000569CE = {
 			isa = PBXGroup;
 			children = (
+				F0F901891B4704A300A1C235 /* DMHotelFoundation */,
 				C320FD651B4078F7000569CE /* Frameworks */,
 				C320FD361B40782B000569CE /* DMHotelsFoundation */,
 				C320FD431B40782B000569CE /* DMHotelsFoundationTests */,
@@ -107,6 +114,8 @@
 			isa = PBXGroup;
 			children = (
 				C320FD381B40782B000569CE /* Info.plist */,
+				F0F9018F1B47110F00A1C235 /* Hotels.xcassets */,
+				F0F901951B47115000A1C235 /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -163,6 +172,22 @@
 				C320FD7B1B407A0E000569CE /* DMViewFoundation.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0F901891B4704A300A1C235 /* DMHotelFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				F0F9018A1B4704A300A1C235 /* Supporting Files */,
+			);
+			path = DMHotelFoundation;
+			sourceTree = "<group>";
+		};
+		F0F9018A1B4704A300A1C235 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0F9018B1B4704A300A1C235 /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +266,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				es,
 				en,
 			);
 			mainGroup = C320FD2A1B40782B000569CE;
@@ -259,6 +285,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0F901901B47110F00A1C235 /* Hotels.xcassets in Resources */,
+				F0F901931B47115000A1C235 /* Localizable.strings in Resources */,
 				C320FD831B407AC3000569CE /* DMHotelsMain.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +329,19 @@
 			targetProxy = C320FD411B40782B000569CE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F0F901951B47115000A1C235 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0F901941B47115000A1C235 /* es */,
+				F0F901961B47116B00A1C235 /* en */,
+			);
+			name = Localizable.strings;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C320FD481B40782B000569CE /* Debug */ = {
