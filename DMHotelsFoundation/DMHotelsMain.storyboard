@@ -199,16 +199,13 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8yq-th-ENq" id="RwS-Zq-duN">
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hotel" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LsT-qa-7z6">
-                                            <rect key="frame" x="8" y="8" width="41" height="21"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hmhotel-medium" translatesAutoresizingMaskIntoConstraints="NO" id="mDg-9I-t0C">
+                                            <rect key="frame" x="552" y="12" width="40" height="40"/>
+                                        </imageView>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="LsT-qa-7z6" firstAttribute="top" secondItem="RwS-Zq-duN" secondAttribute="topMargin" id="5C5-PY-313"/>
-                                        <constraint firstItem="LsT-qa-7z6" firstAttribute="leading" secondItem="RwS-Zq-duN" secondAttribute="leadingMargin" id="ReZ-St-rOd"/>
+                                        <constraint firstAttribute="centerY" secondItem="mDg-9I-t0C" secondAttribute="centerY" constant="-0.5" id="GC4-ER-gQU"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="mDg-9I-t0C" secondAttribute="trailing" id="Qcq-ma-hnD"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
@@ -291,4 +288,7 @@
             <point key="canvasLocation" x="2658" y="269"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="hmhotel-medium" width="40" height="40"/>
+    </resources>
 </document>

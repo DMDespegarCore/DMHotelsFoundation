@@ -30,10 +30,15 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"HotelResultCell" forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"HotelResultCell"
+                                                            forIndexPath:indexPath];
     
-    // Configure the cell...
-    
+    // La manera de obtener los localizables obteniendo el bundle del framework
+    // y luego le pedimos a ese bundle el localized string.
+    NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+    NSString *cellText = [bundle localizedStringForKey:@"HotelCell" value:@"" table:nil]; // Sale macro?
+
+    cell.textLabel.text = cellText;
     return cell;
 }
 
