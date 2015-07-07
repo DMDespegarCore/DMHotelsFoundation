@@ -171,15 +171,27 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wKK-cu-Xg7">
+                                <rect key="frame" x="311" y="299" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="2hn-S4-str"/>
+                                    <constraint firstAttribute="height" constant="50" id="mUg-Wm-xZL"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="hWf-se-HrE" firstAttribute="top" secondItem="lBv-Ql-abA" secondAttribute="bottom" constant="8" id="C6w-Wr-yFM"/>
+                            <constraint firstAttribute="centerY" secondItem="wKK-cu-Xg7" secondAttribute="centerY" constant="-24" id="C9s-bJ-7ks"/>
                             <constraint firstItem="hWf-se-HrE" firstAttribute="leading" secondItem="zhg-GM-RiE" secondAttribute="leadingMargin" id="bvU-Zq-0lJ"/>
                             <constraint firstItem="YKe-Og-x3u" firstAttribute="top" secondItem="psH-M9-8zY" secondAttribute="bottom" constant="8" id="lg5-Sc-lmn"/>
                             <constraint firstAttribute="centerX" secondItem="psH-M9-8zY" secondAttribute="centerX" id="mGI-mc-PxL"/>
+                            <constraint firstAttribute="centerX" secondItem="wKK-cu-Xg7" secondAttribute="centerX" constant="-36" id="y40-Fi-Fe0"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="wKK-cu-Xg7" id="7gu-D8-YyH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MxP-VQ-5XP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
