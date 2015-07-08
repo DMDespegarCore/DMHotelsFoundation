@@ -174,20 +174,30 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="16" placeholderIntrinsicHeight="16" translatesAutoresizingMaskIntoConstraints="NO" id="fKo-9s-Sjb">
                                 <rect key="frame" x="292" y="292" width="16" height="16"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wKK-cu-Xg7">
+                                <rect key="frame" x="311" y="299" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="2hn-S4-str"/>
+                                    <constraint firstAttribute="height" constant="50" id="mUg-Wm-xZL"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="hWf-se-HrE" firstAttribute="top" secondItem="lBv-Ql-abA" secondAttribute="bottom" constant="8" id="C6w-Wr-yFM"/>
+                            <constraint firstAttribute="centerY" secondItem="wKK-cu-Xg7" secondAttribute="centerY" constant="-24" id="C9s-bJ-7ks"/>
                             <constraint firstItem="hWf-se-HrE" firstAttribute="leading" secondItem="zhg-GM-RiE" secondAttribute="leadingMargin" id="bvU-Zq-0lJ"/>
                             <constraint firstAttribute="centerX" secondItem="fKo-9s-Sjb" secondAttribute="centerX" id="hfi-2O-pC7"/>
                             <constraint firstItem="YKe-Og-x3u" firstAttribute="top" secondItem="psH-M9-8zY" secondAttribute="bottom" constant="8" id="lg5-Sc-lmn"/>
                             <constraint firstAttribute="centerX" secondItem="psH-M9-8zY" secondAttribute="centerX" id="mGI-mc-PxL"/>
                             <constraint firstAttribute="centerY" secondItem="fKo-9s-Sjb" secondAttribute="centerY" id="vUY-NT-zFu"/>
+                            <constraint firstAttribute="centerX" secondItem="wKK-cu-Xg7" secondAttribute="centerX" constant="-36" id="y40-Fi-Fe0"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="detailTitle" destination="hWf-se-HrE" id="r3O-s3-7hA"/>
                         <outlet property="image" destination="fKo-9s-Sjb" id="NeI-GT-sXn"/>
+                        <outlet property="imageView" destination="wKK-cu-Xg7" id="7gu-D8-YyH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MxP-VQ-5XP" userLabel="First Responder" sceneMemberID="firstResponder"/>

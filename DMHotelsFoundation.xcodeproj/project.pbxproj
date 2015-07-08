@@ -21,6 +21,8 @@
 		C320FD621B40787E000569CE /* DMHotelsSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C320FD601B40787E000569CE /* DMHotelsSearchViewController.m */; };
 		C320FD7C1B407A0E000569CE /* DMViewFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C320FD7B1B407A0E000569CE /* DMViewFoundation.framework */; };
 		C320FD831B407AC3000569CE /* DMHotelsMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C320FD821B407AC3000569CE /* DMHotelsMain.storyboard */; };
+		F093C6661B4C4B36003769D6 /* DMInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = F093C6641B4C4B36003769D6 /* DMInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F093C6671B4C4B36003769D6 /* DMInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F093C6651B4C4B36003769D6 /* DMInfo.m */; };
 		F0F901901B47110F00A1C235 /* Hotels.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0F9018F1B47110F00A1C235 /* Hotels.xcassets */; };
 		F0F901931B47115000A1C235 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0F901951B47115000A1C235 /* Localizable.strings */; };
 /* End PBXBuildFile section */
@@ -54,6 +56,8 @@
 		C320FD601B40787E000569CE /* DMHotelsSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMHotelsSearchViewController.m; sourceTree = "<group>"; };
 		C320FD7B1B407A0E000569CE /* DMViewFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DMViewFoundation.framework; path = "../DMViewFoundation/build/Debug-iphoneos/DMViewFoundation.framework"; sourceTree = "<group>"; };
 		C320FD821B407AC3000569CE /* DMHotelsMain.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DMHotelsMain.storyboard; sourceTree = "<group>"; };
+		F093C6641B4C4B36003769D6 /* DMInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMInfo.h; sourceTree = "<group>"; };
+		F093C6651B4C4B36003769D6 /* DMInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMInfo.m; sourceTree = "<group>"; };
 		F0F9018B1B4704A300A1C235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0F9018F1B47110F00A1C235 /* Hotels.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Hotels.xcassets; path = Resources/Hotels.xcassets; sourceTree = "<group>"; };
 		F0F901941B47115000A1C235 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -166,6 +170,8 @@
 			children = (
 				C320FD531B407871000569CE /* DMHotelsDetailViewController.h */,
 				C320FD541B407871000569CE /* DMHotelsDetailViewController.m */,
+				F093C6641B4C4B36003769D6 /* DMInfo.h */,
+				F093C6651B4C4B36003769D6 /* DMInfo.m */,
 			);
 			name = Detail;
 			sourceTree = "<group>";
@@ -204,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C320FD3A1B40782B000569CE /* DMHotelsFoundation.h in Headers */,
+				F093C6661B4C4B36003769D6 /* DMInfo.h in Headers */,
 				C320FD5D1B407878000569CE /* DMHotelsResultTableViewController.h in Headers */,
 				C320FD611B40787E000569CE /* DMHotelsSearchViewController.h in Headers */,
 				C320FD551B407871000569CE /* DMHotelsDetailViewController.h in Headers */,
@@ -313,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C320FD561B407871000569CE /* DMHotelsDetailViewController.m in Sources */,
+				F093C6671B4C4B36003769D6 /* DMInfo.m in Sources */,
 				C320FD5E1B407878000569CE /* DMHotelsResultTableViewController.m in Sources */,
 				C320FD621B40787E000569CE /* DMHotelsSearchViewController.m in Sources */,
 				C320FD5C1B407878000569CE /* DMHotelsResultsViewController.m in Sources */,
