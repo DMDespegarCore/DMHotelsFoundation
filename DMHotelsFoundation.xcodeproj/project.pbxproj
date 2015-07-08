@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		652374D11B4B20640099BDF6 /* CommonsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 652374D01B4B20640099BDF6 /* CommonsKit.framework */; };
 		C320FD3A1B40782B000569CE /* DMHotelsFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = C320FD391B40782B000569CE /* DMHotelsFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C320FD401B40782B000569CE /* DMHotelsFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C320FD341B40782B000569CE /* DMHotelsFoundation.framework */; };
 		C320FD471B40782B000569CE /* DMHotelsFoundationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C320FD461B40782B000569CE /* DMHotelsFoundationTests.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		652374D01B4B20640099BDF6 /* CommonsKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CommonsKit.framework; path = "../DMWorkspace/CommonsKit/build/Debug-iphoneos/CommonsKit.framework"; sourceTree = "<group>"; };
+		65A3FD341B4B0306005437A1 /* DMAssetsFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DMAssetsFoundation.framework; path = "../DMAssetsFoundation/build/Debug-iphoneos/DMAssetsFoundation.framework"; sourceTree = "<group>"; };
 		C320FD341B40782B000569CE /* DMHotelsFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DMHotelsFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C320FD381B40782B000569CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C320FD391B40782B000569CE /* DMHotelsFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMHotelsFoundation.h; sourceTree = "<group>"; };
@@ -62,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				652374D11B4B20640099BDF6 /* CommonsKit.framework in Frameworks */,
 				C320FD7C1B407A0E000569CE /* DMViewFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -169,6 +173,8 @@
 		C320FD651B4078F7000569CE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				652374D01B4B20640099BDF6 /* CommonsKit.framework */,
+				65A3FD341B4B0306005437A1 /* DMAssetsFoundation.framework */,
 				C320FD7B1B407A0E000569CE /* DMViewFoundation.framework */,
 			);
 			name = Frameworks;
@@ -255,6 +261,7 @@
 				TargetAttributes = {
 					C320FD331B40782B000569CE = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = B6B42N8QVD;
 					};
 					C320FD3E1B40782B000569CE = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -435,10 +442,12 @@
 		C320FD4B1B40782B000569CE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../**",
@@ -454,10 +463,12 @@
 		C320FD4C1B40782B000569CE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../**",
