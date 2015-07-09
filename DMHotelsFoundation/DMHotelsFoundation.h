@@ -21,3 +21,4 @@ FOUNDATION_EXPORT const unsigned char DMHotelsFoundationVersionString[];
 #import <DMHotelsFoundation/DMHotelsResultTableViewController.h>
 #import <DMHotelsFoundation/DMHotelsSearchViewController.h>
 #import <DMHotelsFoundation/DMInfo.h>
+#import <DMHotelsFoundation/DMHotelURIsHandler.h>
