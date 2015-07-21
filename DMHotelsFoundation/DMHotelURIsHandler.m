@@ -11,18 +11,10 @@
 
 @implementation DMHotelURIsHandler
 
-- (NSDictionary *)urisHandlers {
+- (NSArray *)uris {
+    // Por ahora 1 solo
+    return @[ @"despe://home/hotel"];
     
-    // Testing.
-    DPLRouteHandlerBlock homeBlock = ^(DPLDeepLink *link) {
-        [[[UIAlertView alloc] initWithTitle:@"Hotel Home"
-                                    message:@"Hotel Home"
-                                   delegate:nil
-                          cancelButtonTitle:NSLocalizedString(@"OK", nil)
-                          otherButtonTitles:nil] show];
-    };
-    
-    return @{ @"despe://hotel/home" : [homeBlock copy] };
 }
 
 @end

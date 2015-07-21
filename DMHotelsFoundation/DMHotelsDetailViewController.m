@@ -8,6 +8,8 @@
 
 #import "DMHotelsDetailViewController.h"
 #import <CommonsKit/CommonsKit.h>
+#import <DeepLinkKit/DeepLinkKit.h>
+#import <DMCoreFoundation/DMCoreFoundation.h>
 
 @interface DMHotelsDetailViewController ()
 @property (weak, nonatomic) IBOutlet UIImageView *image;
@@ -34,4 +36,16 @@
     self.imageView.image = [UIImage imageNamed:@"check" inBundle:bundle compatibleWithTraitCollection:nil];
 
 }
+- (IBAction)xSellFlight:(id)sender {
+    DMXSellingManager *manager = [DMXSellingManager sharedManager];
+    
+     NSDictionary *params =  @{
+                             @"xSellTo" : @"Flight",
+                             @"to" : @"bahamas",
+                             @"from" : @"arg",
+                           };
+    [manager boughtHotel:params];
+    
+}
+
 @end

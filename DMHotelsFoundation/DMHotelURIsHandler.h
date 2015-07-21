@@ -7,10 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <DMCoreFoundation/DMCoreFoundation.h>
 
-@interface DMHotelURIsHandler : NSObject
-
-// Esto va a devolver un array de diccionarios de Links y handlers.
-- (NSDictionary *)urisHandlers;
+@interface DMHotelURIsHandler : NSObject <DMURIHandlerProtocol>
 
 @end

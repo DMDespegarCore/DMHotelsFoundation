@@ -27,6 +27,7 @@
 		F0B910941B4EC4750099CD8E /* DMHotelURIsHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B910921B4EC4750099CD8E /* DMHotelURIsHandler.m */; };
 		F0B910961B4ECDF70099CD8E /* DMTrackFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B910951B4ECDF70099CD8E /* DMTrackFoundation.framework */; };
 		F0B910A91B4ECE620099CD8E /* CommonsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B9109D1B4ECE250099CD8E /* CommonsKit.framework */; };
+		F0D767CE1B56E5E900405F11 /* DMCoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0D767CD1B56E5E900405F11 /* DMCoreFoundation.framework */; };
 		F0F901901B47110F00A1C235 /* Hotels.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0F9018F1B47110F00A1C235 /* Hotels.xcassets */; };
 		F0F901931B47115000A1C235 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0F901951B47115000A1C235 /* Localizable.strings */; };
 /* End PBXBuildFile section */
@@ -83,6 +84,7 @@
 		F0B910921B4EC4750099CD8E /* DMHotelURIsHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMHotelURIsHandler.m; sourceTree = "<group>"; };
 		F0B910951B4ECDF70099CD8E /* DMTrackFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DMTrackFoundation.framework; path = "../../../Library/Developer/Xcode/DerivedData/DMHotels-djhdjjrnphmlsvfanfpyprpwihxq/Build/Products/Debug-iphoneos/DMTrackFoundation.framework"; sourceTree = "<group>"; };
 		F0B910971B4ECE250099CD8E /* CommonsKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CommonsKit.xcodeproj; path = ../DMWorkspace/CommonsKit/CommonsKit.xcodeproj; sourceTree = "<group>"; };
+		F0D767CD1B56E5E900405F11 /* DMCoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DMCoreFoundation.framework; path = "../../../Library/Developer/Xcode/DerivedData/DMDespegar-bebkjnavufazhebjdzvwhrqsuawu/Build/Products/Debug-iphoneos/DMCoreFoundation.framework"; sourceTree = "<group>"; };
 		F0F9018B1B4704A300A1C235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0F9018F1B47110F00A1C235 /* Hotels.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Hotels.xcassets; path = Resources/Hotels.xcassets; sourceTree = "<group>"; };
 		F0F901941B47115000A1C235 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0D767CE1B56E5E900405F11 /* DMCoreFoundation.framework in Frameworks */,
 				F0B910A91B4ECE620099CD8E /* CommonsKit.framework in Frameworks */,
 				F0B910961B4ECDF70099CD8E /* DMTrackFoundation.framework in Frameworks */,
 				C320FD7C1B407A0E000569CE /* DMViewFoundation.framework in Frameworks */,
@@ -221,6 +224,7 @@
 				F0B910971B4ECE250099CD8E /* CommonsKit.xcodeproj */,
 				F0B910951B4ECDF70099CD8E /* DMTrackFoundation.framework */,
 				652374D01B4B20640099BDF6 /* CommonsKit.framework */,
+				F0D767CD1B56E5E900405F11 /* DMCoreFoundation.framework */,
 				65A3FD341B4B0306005437A1 /* DMAssetsFoundation.framework */,
 				C320FD7B1B407A0E000569CE /* DMViewFoundation.framework */,
 				31EEBF1A9A34F07765671FFB /* libPods.a */,
@@ -572,6 +576,7 @@
 					"$(inherited)",
 					"$(SRCROOT)/../**",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/DMHotels-djhdjjrnphmlsvfanfpyprpwihxq/Build/Products/Debug-iphoneos",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/DMDespegar-bebkjnavufazhebjdzvwhrqsuawu/Build/Products/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = DMHotelsFoundation/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -595,6 +600,7 @@
 					"$(inherited)",
 					"$(SRCROOT)/../**",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/DMHotels-djhdjjrnphmlsvfanfpyprpwihxq/Build/Products/Debug-iphoneos",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/DMDespegar-bebkjnavufazhebjdzvwhrqsuawu/Build/Products/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = DMHotelsFoundation/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
