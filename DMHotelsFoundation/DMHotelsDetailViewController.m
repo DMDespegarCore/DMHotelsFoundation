@@ -10,6 +10,7 @@
 #import <CommonsKit/CommonsKit.h>
 #import <DeepLinkKit/DeepLinkKit.h>
 #import <DMCoreFoundation/DMCoreFoundation.h>
+#import "DMHotelsAssembly.h"
 
 @interface DMHotelsDetailViewController ()
 @property (weak, nonatomic) IBOutlet UIImageView *image;
@@ -23,6 +24,7 @@
 -(void)viewDidLoad {
     [super viewDidLoad];
     
+    self.xSelling = [[[DMHotelsAssembly new] activate] xSelling];
 
     UIImage * image = [CommonImagesFactory image:@"flight"];
     [self.image setImage:image];
@@ -37,14 +39,14 @@
 
 }
 - (IBAction)xSellFlight:(id)sender {
-    DMXSellingManager *manager = [DMXSellingManager sharedManager];
-    
+//    id<UIApplicationDelegate, DMHotelXSellingProtocol> myDelegate = [[UIApplication sharedApplication] delegate];
+// myDelegate.xselling bought
+
      NSDictionary *params =  @{
-                             @"xSellTo" : @"Flight",
                              @"to" : @"bahamas",
                              @"from" : @"arg",
                            };
-    [manager boughtHotel:params];
+    [self.xSelling boughtHotel:params];
     
 }
 

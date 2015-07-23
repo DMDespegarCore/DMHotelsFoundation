@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DFC79D62-4980-4BC3-866B-385992128FE3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DMHotelsFoundation</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0807C5ADC066322A36B69427C4263E51D520EA99</key>
+		<string>https://github.com/DMDespegarCore/DMViewFoundation.git</string>
+		<key>50D8259567252155DDC03B92D0699CBA589B3EB8</key>
+		<string>https://github.com/DMDespegarCore/DMHotelsFoundation.git</string>
+		<key>F6C9662180ED326287D2E61622C3B4D4CE4532D8</key>
+		<string>https://github.com/DMDespegarCore/DMWorkspace.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DMHotelsFoundation.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0807C5ADC066322A36B69427C4263E51D520EA99</key>
+		<string>../../../DMViewFoundation</string>
+		<key>50D8259567252155DDC03B92D0699CBA589B3EB8</key>
+		<string>../..</string>
+		<key>F6C9662180ED326287D2E61622C3B4D4CE4532D8</key>
+		<string>../../../DMWorkspace</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/DMDespegarCore/DMHotelsFoundation.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>50D8259567252155DDC03B92D0699CBA589B3EB8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>50D8259567252155DDC03B92D0699CBA589B3EB8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DMHotelsFoundation</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0807C5ADC066322A36B69427C4263E51D520EA99</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DMViewFoundation</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F6C9662180ED326287D2E61622C3B4D4CE4532D8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DMWorkspace</string>
+		</dict>
+	</array>
+</dict>
+</plist>
