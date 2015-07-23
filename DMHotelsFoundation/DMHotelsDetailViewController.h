@@ -11,6 +11,5 @@
 
 @interface DMHotelsDetailViewController : DMViewController
 
-@property (nonatomic, strong) id <DMHotelXSellingProtocol> xSelling;
 
 @end

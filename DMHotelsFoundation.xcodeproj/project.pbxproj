@@ -23,6 +23,7 @@
 		C320FD621B40787E000569CE /* DMHotelsSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C320FD601B40787E000569CE /* DMHotelsSearchViewController.m */; };
 		C320FD7C1B407A0E000569CE /* DMViewFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C320FD7B1B407A0E000569CE /* DMViewFoundation.framework */; };
 		C320FD831B407AC3000569CE /* DMHotelsMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C320FD821B407AC3000569CE /* DMHotelsMain.storyboard */; };
+		F0220A6C1B616C4B007FACD2 /* DMHotelSellingProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = F0220A6B1B616C4B007FACD2 /* DMHotelSellingProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F093C6661B4C4B36003769D6 /* DMInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = F093C6641B4C4B36003769D6 /* DMInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F093C6671B4C4B36003769D6 /* DMInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F093C6651B4C4B36003769D6 /* DMInfo.m */; };
 		F0B910931B4EC4750099CD8E /* DMHotelURIsHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = F0B910911B4EC4750099CD8E /* DMHotelURIsHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -95,6 +96,7 @@
 		C320FD601B40787E000569CE /* DMHotelsSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMHotelsSearchViewController.m; sourceTree = "<group>"; };
 		C320FD7B1B407A0E000569CE /* DMViewFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DMViewFoundation.framework; path = "../DMViewFoundation/build/Debug-iphoneos/DMViewFoundation.framework"; sourceTree = "<group>"; };
 		C320FD821B407AC3000569CE /* DMHotelsMain.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DMHotelsMain.storyboard; sourceTree = "<group>"; };
+		F0220A6B1B616C4B007FACD2 /* DMHotelSellingProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMHotelSellingProvider.h; sourceTree = "<group>"; };
 		F093C6641B4C4B36003769D6 /* DMInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMInfo.h; sourceTree = "<group>"; };
 		F093C6651B4C4B36003769D6 /* DMInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMInfo.m; sourceTree = "<group>"; };
 		F0B910911B4EC4750099CD8E /* DMHotelURIsHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMHotelURIsHandler.h; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				0F971A5B1B602D3D00963326 /* DMHotelXSellingProtocol.h */,
+				F0220A6B1B616C4B007FACD2 /* DMHotelSellingProvider.h */,
 			);
 			name = CrossSelling;
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 				C320FD551B407871000569CE /* DMHotelsDetailViewController.h in Headers */,
 				F0B910931B4EC4750099CD8E /* DMHotelURIsHandler.h in Headers */,
 				C320FD5B1B407878000569CE /* DMHotelsResultsViewController.h in Headers */,
+				F0220A6C1B616C4B007FACD2 /* DMHotelSellingProvider.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

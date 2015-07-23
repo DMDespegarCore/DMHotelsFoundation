@@ -1,15 +1,10 @@
 PODS:
   - DeepLinkKit (1.1.0)
-  - Typhoon (3.2.2):
-    - Typhoon/no-arc (= 3.2.2)
-  - Typhoon/no-arc (3.2.2)
 
 DEPENDENCIES:
   - DeepLinkKit
-  - Typhoon
 
 SPEC CHECKSUMS:
   DeepLinkKit: 3979713c8a0b6bd3259fb7917e572acf56645a35
-  Typhoon: 743585ed0caa72e4ea57ff8efe87dca41eb57528
 
-COCOAPODS: 0.38.0
+COCOAPODS: 0.37.2

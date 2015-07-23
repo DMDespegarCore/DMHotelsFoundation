@@ -10,7 +10,9 @@
 #import <CommonsKit/CommonsKit.h>
 #import <DeepLinkKit/DeepLinkKit.h>
 #import <DMCoreFoundation/DMCoreFoundation.h>
-#import "DMHotelsAssembly.h"
+#import "DMHotelSellingProvider.h"
+
+//#import "DMHotelsAssembly.h"
 
 @interface DMHotelsDetailViewController ()
 @property (weak, nonatomic) IBOutlet UIImageView *image;
@@ -24,7 +26,7 @@
 -(void)viewDidLoad {
     [super viewDidLoad];
     
-    self.xSelling = [[[DMHotelsAssembly new] activate] xSelling];
+//    self.xSelling = [[[DMHotelsAssembly new] activate] xSelling];
 
     UIImage * image = [CommonImagesFactory image:@"flight"];
     [self.image setImage:image];
@@ -39,14 +41,22 @@
 
 }
 - (IBAction)xSellFlight:(id)sender {
-//    id<UIApplicationDelegate, DMHotelXSellingProtocol> myDelegate = [[UIApplication sharedApplication] delegate];
-// myDelegate.xselling bought
+    
+    id<UIApplicationDelegate, DMHotelSellingProvider> myDelegate = (id<UIApplicationDelegate, DMHotelSellingProvider>)[[UIApplication sharedApplication] delegate];
+    
+    
+    if ([myDelegate conformsToProtocol:@protocol(DMHotelSellingProvider)]) {
+        NSDictionary *params =  @{
+                                  @"to" : @"bahamas",
+                                  @"from" : @"arg",
+                                  };
+        
+        // TODO Chequear por protocol de xselling.
+        if ([myDelegate.xSelling conformsToProtocol:@protocol(DMHotelXSellingProtocol) ]) {
+            [myDelegate.xSelling boughtHotel:params];
+        }
+    }
 
-     NSDictionary *params =  @{
-                             @"to" : @"bahamas",
-                             @"from" : @"arg",
-                           };
-    [self.xSelling boughtHotel:params];
     
 }
 

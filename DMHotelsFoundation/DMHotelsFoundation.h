@@ -23,3 +23,4 @@ FOUNDATION_EXPORT const unsigned char DMHotelsFoundationVersionString[];
 #import <DMHotelsFoundation/DMInfo.h>
 #import <DMHotelsFoundation/DMHotelURIsHandler.h>
 #import <DMHotelsFoundation/DMHotelXSellingProtocol.h>
+#import <DMHotelsFoundation/DMHotelSellingProvider.h>
