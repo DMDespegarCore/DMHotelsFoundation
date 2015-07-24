@@ -13,7 +13,7 @@
 
 - (NSArray *)uris {
     // Por ahora 1 solo
-    return @[ @"despe://home/hotel"];
+    return @[ @"despe://xSelling/Hotel"];
     
 }
 

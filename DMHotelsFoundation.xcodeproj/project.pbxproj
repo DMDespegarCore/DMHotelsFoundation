@@ -103,6 +103,8 @@
 		F0B910921B4EC4750099CD8E /* DMHotelURIsHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMHotelURIsHandler.m; sourceTree = "<group>"; };
 		F0B910951B4ECDF70099CD8E /* DMTrackFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DMTrackFoundation.framework; path = "../../../Library/Developer/Xcode/DerivedData/DMHotels-djhdjjrnphmlsvfanfpyprpwihxq/Build/Products/Debug-iphoneos/DMTrackFoundation.framework"; sourceTree = "<group>"; };
 		F0B910971B4ECE250099CD8E /* CommonsKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CommonsKit.xcodeproj; path = ../DMWorkspace/CommonsKit/CommonsKit.xcodeproj; sourceTree = "<group>"; };
+		F0EB18341B62C247007EBD2B /* libDeepLinkKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libDeepLinkKit.a; path = "/Users/nicolasmiyasato/src/core2/DMAppContainer/Pods/../build/Debug-iphoneos/libDeepLinkKit.a"; sourceTree = "<absolute>"; };
+		F0EB183B1B62CB19007EBD2B /* libDeepLinkKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libDeepLinkKit.a; path = "/Users/nicolasmiyasato/src/core2/DMAppContainer/Pods/../build/Debug-iphoneos/libDeepLinkKit.a"; sourceTree = "<absolute>"; };
 		F0F9018B1B4704A300A1C235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0F9018F1B47110F00A1C235 /* Hotels.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Hotels.xcassets; path = Resources/Hotels.xcassets; sourceTree = "<group>"; };
 		F0F901941B47115000A1C235 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -258,6 +260,8 @@
 		C320FD651B4078F7000569CE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F0EB183B1B62CB19007EBD2B /* libDeepLinkKit.a */,
+				F0EB18341B62C247007EBD2B /* libDeepLinkKit.a */,
 				0F0EC7061B6128CE00237314 /* DMCoreFoundation.xcodeproj */,
 				F0B910971B4ECE250099CD8E /* CommonsKit.xcodeproj */,
 				F0B910951B4ECDF70099CD8E /* DMTrackFoundation.framework */,
@@ -638,6 +642,10 @@
 				INFOPLIST_FILE = DMHotelsFoundation/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/nicolasmiyasato/src/core2/DMAppContainer/Pods/../build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -662,6 +670,10 @@
 				INFOPLIST_FILE = DMHotelsFoundation/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/nicolasmiyasato/src/core2/DMAppContainer/Pods/../build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
